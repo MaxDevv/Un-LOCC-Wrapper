@@ -2,6 +2,11 @@
 
 Un-LOCC (Universal Lossy Optical Context Compression) is a Python library that wraps the OpenAI SDK to enable optical compression of text inputs. By rendering text into images, it leverages Vision-Language Models (VLMs) for more efficient token usage, especially when dealing with large text contexts.
 
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=MaxDevv/Un-LOCC-Wrapper&type=date&legend=top-left)](https://www.star-history.com/#MaxDevv/Un-LOCC-Wrapper&type=date&legend=top-left) 
+
 ## Features
 
 - **Optical Compression**: Converts text into images for VLM-compatible input.
