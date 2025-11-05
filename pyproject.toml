@@ -1,0 +1,49 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "un-locc"
+version = "0.1.9"
+description = "Universal Lossy Optical Context Compression for Vision-Language Models"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.8"
+authors = [
+    {name = "MaxDevv", email = "maxdevv@example.com"},
+]
+maintainers = [
+    {name = "MaxDevv", email = "maxdevv@example.com"},
+]
+keywords = ["openai", "compression", "optical", "vlm", "context-compression"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+dependencies = [
+    "openai>=1.0.0",
+    "pillow>=8.0.0",
+    "reportlab>=4.0.0",
+    "pypdfium2>=4.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/MaxDevv/Un-LOCC"
+Documentation = "https://github.com/MaxDevv/Un-LOCC#readme"
+Repository = "https://github.com/MaxDevv/Un-LOCC"
+Issues = "https://github.com/MaxDevv/Un-LOCC/issues"
+Changelog = "https://github.com/MaxDevv/Un-LOCC/blob/main/CHANGELOG.md"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/un_locc"]
